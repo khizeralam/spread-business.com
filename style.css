@@ -1,0 +1,460 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+li{list-style: none;}
+p{
+    color: #060606;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}   
+
+
+.extra-div h2, .sercivediv{
+    font-size: 1rem;
+    margin: 20 0 15 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+
+} 
+i{
+    color: #16c9f9;
+}
+.navbar-brand{
+    font-size: 30px!important;
+    color: black!important;
+    box-decoration-break: rgba(0, 0, 0, 0.3)!important;
+}
+
+/************* actual css class started ***********/
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,168,255,0.3), rgba(0,168,255,0.3)), url('../images/ef998461ced70bd6b2dc90fec38a9a5c.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clip-path: polygon(100% 0%, 100% 77%, 50% 100%, 0% 75%, 0 0);
+    position: relative;
+}
+.header::before{
+    content: " ";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: .4%;
+    z-index: -1;
+    background: linear-gradient(to right, #1e5799 0%, #33cccc 0%, #16c9f9 100%);
+}
+.navbar::before{
+    content: " ";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: .4%;
+    z-index: -1;
+    background: linear-gradient(to right, #1e5799 0%, #33cccc 0%, #16c9f9 100%);
+}
+.nav-item a{
+    color: #fff;
+    font-weight: bold;
+}
+.collapse:hover{
+    color: rgb(51, 51, 245);
+}
+.header-section{
+    padding-top: 40px;
+    width: 100%;
+    height: inherit;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.center-div{
+    padding-top: 130px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.header-button a{
+    border: 1px solid #fff;
+    border-radius: 100px;
+    margin: 0 7px;
+    padding: 10px 10px;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.4;
+}
+.header-button a:hover{
+    color: #16c9f6;
+    background:white;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+.center-div p{
+    font-size: 1.3rem;
+    padding: 10px 0 20px 0;
+    color: white; 
+}
+/***************extra div*************************************/
+
+.header-extradiv{
+    width: 100%;
+    height: auto;
+    margin: 75px 0px;
+    text-align: center;
+}
+.extra-div{
+    background: #fff;
+    border: medium none;
+    padding: 40px!important;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+.extra-div:hover{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    transform: translateY(-20px);
+}
+/***************extra div end*************************************/
+
+/***************Service offer CSS Start*************************************/
+
+.Serviceffers{
+    background: #f7f7f9;
+    padding: 50px 0px;
+    margin-bottom: 50px;
+}
+.headings h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.names h2{
+    color: 2e2e2e;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.service-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.progress {
+    height: 0.9rem!important;
+    margin-bottom: 25px!important;
+    background: #606060;
+}
+/***************Service offer CSS  end*************************************/
+
+/************* actual css class started ***********/
+.project-work{
+    margin: 100px 0px;
+}
+.project-work h2{
+    font-size: 2rem;
+    text-align: center;
+}
+/************* actual css class started ***********/
+
+/************* actual css class started ***********/
+.pricing{
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+    position: relative;
+}
+.pricing::before{
+    content: " ";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: -1;
+    background: linear-gradient(160deg, #16c9f6 55%, #fff 0%);
+}
+.money{
+    font-size: 40px;
+    line-height: 1;
+    color: #606060;
+}
+.card{
+    transition: 0.4s ease;
+
+}
+.card-header{
+    font-size: 1.6rem;
+    font-weight: bold;
+    background: #fff!important;
+    padding: 25px 0px!important;
+}
+.card-body{
+    padding: 30px 0px!important;
+}
+.card-body li{
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #606060;
+}
+.card-footer{
+    background: white!important;
+    padding: 30px 0px!important;
+}
+.card-footer a{
+    border: 1px solid #50d1c0;
+    border-radius: 100px;
+    margin: 0 7px;
+    padding: 10px 10px;
+    outline: none;
+    color: #50d1c0;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.4;
+    
+}
+.card:hover .card-footer a{
+    color: rgb(247, 239, 239);
+    background:#50d1c0;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+.card:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 0 20 0 rgba(0, 0, 0, 0.3);
+}
+.card:hover .card-header, .card:hover .money{
+    color: #50d1c0; 
+}
+.card-second{
+    transform: translateY(-10px);
+    box-shadow: 0 0 20 0 rgba(0, 0, 0, 0.3);
+}
+/***************client feedback start*************************************/
+.Happyclients{
+    width: 100%;
+    height: 100vh;
+    padding: 80px 0px;
+}
+.box{
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    transition: 0.3s ease;
+
+}
+.box:hover p{
+    color: white;
+    background-color: #5bc0de ;
+}
+.carousel-indicators{
+    position: absolute;
+    right: 0;
+    bottom: -60px!important;
+
+}
+.carousel-indicators li{
+    background-color: #16c9f6!important;
+}
+.box a img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.box a:after{
+    content: "\f10d";
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background:linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100% );
+    color: white;
+    position: absolute;
+    top: 129%;
+    left: 70%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box h2{
+    font-size: 18px;
+    font-weight: 700px;
+    color: #000;
+    margin-bottom: 10px;
+}
+.box h5{
+    font-size: 13px;
+    font-weight: 400px;
+    color: #666666;
+    margin-bottom:20px;
+
+}
+
+/***************client feedback end*************************************/
+
+/***************Contact Us start*************************************/
+.contactUs{
+    width: 100%;
+    height: 100vh;
+    padding: 80px 0;
+    position: relative;
+
+}
+.contactUs :before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(#16c9f6 55%, #fff 0%);
+    z-index: -1;
+}
+.form-button button{
+    border: 1px solid #50d1c0;
+    border-radius: 100px;
+    margin: 0 7px;
+    padding: 10px 10px;
+    outline: none;
+    color: #50d1c0;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.4;
+    background: transparent;
+}
+form :hover .form-button button{
+    background: #fff;
+    color: #50d1c0;
+    box-shadow: 0 0 20 0 rgba(0,0,0,0.3);
+}
+::placeholder{
+    font-size: 0.85rem;
+}
+
+
+/***************contact us end*************************************/
+
+/***************contact us end*************************************/
+
+.newsletter{
+    width: 100%;
+    height: auto;
+    margin: 80px auto ;
+}
+.news-input{
+    border-radius: 100px 0px 0px 100px !important;
+    min-width: 150px;
+    min-height: 45px;
+}
+.input-group-text{
+    color: #fff;
+    border-radius: 0px 100px 100px 0px!important;
+    background: #5bc0de!important;
+}
+
+/***************contact us end*************************************/
+
+/***************footer section start*************************************/
+.footersection{
+    width: 100%;
+    height: auto;
+    padding: 75px 0px 20px 0px;
+    background: #00abff;
+    position: relative;
+
+}
+.footersection p{
+    color: #fff;
+}
+.footersection li a{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+.footersection h3{
+
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    color: #fff;
+    font-size: 1.2rem!important;
+    font-weight: 600;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+
+/***************footer section end*************************************/
+#myBtn{
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    color: #fff;
+    background: #00abff;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+#myBtn:hover{
+    background: grey;
+
+}
+/************* actual css class started ***********/
+
+/************* Media query started ***********/
+@media(max-width: 760px){
+    .nav-item{
+        text-align: center!important;
+    }
+    .pricing, .Happyclients {
+        height: auto;
+        margin-top: 50px;
+    }
+    .card-second{
+        transform: translate(0px);
+        margin: 30px ;
+    }
+    .pricing h1{
+        margin-bottom: 50px;
+    }
+    .footer-div:nth-child(2){
+        text-align: left!important;
+    }
+    .footer-div{
+        margin: 25px 0px;
+    }
+}
+
+
+/************* media query end here ***********/
